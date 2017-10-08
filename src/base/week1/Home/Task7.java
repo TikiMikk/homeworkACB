@@ -19,21 +19,17 @@ public class Task7 {
 
         if (a % b == 0) {
             String result = a + " / " + b + " = " + c + " Остача " + d;
-            System.out.println("Тру");
-            System.out.println(result);
+            System.out.println(" True " + result);
         } else if (a % b >= 1){
             String result = a + " / " + b + " = " + c + " Остача " + d;
-            System.out.println("False");
-            System.out.println(result);
+            System.out.println(" False " + result);
 
         } else if (b % a == 0) {
             String result = b + " / " + a + " = " + c1 + " Остача " + d1;
-            System.out.println("Тру");
-            System.out.println(result);
+            System.out.println(" True " + result);
         } else if (b % a >= 1 ){
             String result = b + " / " + a + " = " + c1 + " Остача " + d1;
-            System.out.println("False");
-            System.out.println(result);
+            System.out.println(" False " + result);
         }
 
 
